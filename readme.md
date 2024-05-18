@@ -1,4 +1,4 @@
-# Hungarian lottery statistics (Otoslotto)
+# Hungarian lottery statistics (ötóslottó)
 
 This simple Python script extracts the data of the Hungarian Lottery (5Hit) and prints out the five most
 prevalent numbers.
@@ -12,6 +12,6 @@ First, I thought getting data for 5 specific numbers was handled through queries
 
 It turned out, that their website always receives a json from a google analytics site, which includes every lottery data from 1953 until today.
 I realised this while using the dev tools of the browser and the network tab especially.
-Showing only the five specific numbers that I asked for, was handled on the client side (Angular)
+Showing only the five specific numbers that I asked for, was handled on the client side (Angular) of the szerencsejatek webpage
 
 With this find, I could extract all data of all drawings and numbers, and get the top5 easily
